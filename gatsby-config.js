@@ -31,8 +31,8 @@ module.exports = {
         name: `Humancrafted`,
         short_name: `Humancrafted`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#141414`,
+        theme_color: `#141414`,
         display: `minimal-ui`,
         icon: `src/images/logo-small.png`, // This path is relative to the root of the site.
       },
@@ -43,9 +43,7 @@ module.exports = {
         component: require.resolve(`./src/layouts/index.jsx`),
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-s3`,
       options: {

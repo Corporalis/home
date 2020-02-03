@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import media from 'styled-media-query'
-import SEO from '../components/seo'
 import PageContainer from '../components/page-container'
+import SEO from '../components/seo'
 
 const About = () => (
   <>
@@ -22,7 +22,12 @@ const About = () => (
           applications.
           <br />
           Humancrafted was founded by{' '}
-          <a href="https://www.linkedin.com/in/mitchclay/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mitchclay/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Mitch on LinkedIn"
+          >
             Mitch Clay
           </a>{' '}
           to bring together a unique group of individuals with a shared dream of
@@ -37,16 +42,31 @@ const About = () => (
         </p>
         <p className="links">
           Find Mitch here:{' '}
-          <a href="https://www.linkedin.com/in/mitchclay/" target="_blank">
-            Linkedin
+          <a
+            href="https://www.linkedin.com/in/mitchclay/"
+            target="_blank"
+            rel="noopener"
+            title="Mitch on LinkedIn"
+          >
+            LinkedIn
           </a>
           ,{' '}
-          <a href="https://medium.com/@mitchclay0" target="_blank">
+          <a
+            href="https://medium.com/@mitchclay0"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Mitch on Medium"
+          >
             {' '}
             Medium
           </a>
           ,{' '}
-          <a href="https://twitter.com/MitchClay0" target="_blank">
+          <a
+            href="https://twitter.com/MitchClay0"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Mitch on Twitter"
+          >
             Twitter
           </a>
         </p>
